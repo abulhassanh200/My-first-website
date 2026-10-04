@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Coding Journey</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 24px;
+      background-color: #f7f1e8;
+      color: #2a1e1a;
+      line-height: 1.6;
+    }
+
+    button {
+      background-color: #2a1e1a;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>My Coding Journey</h1>
+
+  <p>I am learning to build useful tools for my business and daily life.</p>
+
+  <h2>Three things I want to learn</h2>
+
+  <ul>
+    <li>Build simple websites.</li>
+    <li>Use AI to help me code.</li>
+    <li>Save my projects with GitHub.</li>
+  </ul>
+
+  <button type="button" onclick="showMessage()">Click me</button>
+
+  <p id="message" aria-live="polite">Your first coding adventure starts here.</p>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "I built my first webpage with AI!";
+    }
+  </script>
+</body>
+</html>
